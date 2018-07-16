@@ -5,12 +5,14 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./dist"
+    "build": "parcel build index.html --public-url ./",
+    "serve": "serve dist -p 3000"
   },
   "devDependencies": {
     "tailwindcss": "^0.4.0"
   },
   "dependencies": {
-    "parcel-bundler": "^1.2.0"
+    "parcel-bundler": "^1.2.0",
+    "serve": "^9.2.0"
   }
 }
