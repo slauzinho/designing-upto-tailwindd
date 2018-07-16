@@ -55,3 +55,75 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+
+.bg-unplash {
+    background-color: rgb(32,32,223);
+    background-image: linear-gradient(rgba(32,32,223, 0.7), rgba(32,32,223, 0.7)), url('./assets/rawpixel-567016-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  .border-special-1 {
+    background-image: linear-gradient(rgba(210,231,249, 0.5), rgba(210,231,249, 0.5)), url('./assets/angello.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .border-special-2 {
+    background-image: linear-gradient(rgba(130,130,249, 0.5), rgba(130,130,249, 0.5)), url('./assets/christopher.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .border-special-3 {
+    background-image: linear-gradient(rgba(210,231,249, 0.35), rgba(210,231,249, 0.35)), url('./assets/alex.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .border-special-4 {
+    background-image: linear-gradient(rgba(210,231,249, 0.35), rgba(210,231,249, 0.35)), url('./assets/kyle.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .border-special-5 {
+    background-image: linear-gradient(rgba(210,231,249, 0.35), rgba(210,231,249, 0.35)), url('./assets/luca.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .flip {
+    -moz-transform: scaleX(-1);
+          -o-transform: scaleX(-1);
+          -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+          filter: FlipH;
+          -ms-filter: "FlipH";
+  }
+
+  .position-video-mobile {
+    top: 18rem;
+  }
+
+  .pin-bottom-left {
+    bottom: 7%;
+    left: 7%;
+  }
+  .pin-top-right {
+    top: 7%;
+    right: 7%;
+  }
+
+  .pin-center-left {
+    top: 25%;
+    left: 25%;
+  }
+
+  .pin-center-right {
+    bottom: 25%;
+    right: 25%;
+  }

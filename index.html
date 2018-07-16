@@ -1,17 +1,292 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Tailwind</title>
 
-    <link rel="stylesheet" href="./index.css">
-  </head>
-  <body>
-    <div class="min-h-screen flex items-center justify-center">
-      <h1 class="text-5xl text-purple font-sans">Greetings.</h1>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Tailwind</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body class="font-sans px-4 sm:px-0">
+  <div>
+    <div class="container m-auto my-8">
+      <div class="items-center justify-between font-semibold flex">
+        <img class="w-24" src="assets/logo.png" alt="upto logo" />
+        <nav class="hidden md:block">
+          <a href="#" class="no-underline mr-12 text-black">
+            Home
+          </a>
+          <a href="#" class="no-underline mr-12 text-black">
+            About
+          </a>
+          <a href="#" class="no-underline mr-12 text-black">
+            How we do
+          </a>
+          <a href="#" class="no-underline mr-12 text-black">
+            Contact
+          </a>
+          <a href="#" class="no-underline text-black bg-blue rounded text-white py-3 px-6 hover:bg-blue-dark">
+            Get Start
+          </a>
+        </nav>
+      </div>
+      <header class="flex mt-8 items-center mb-24 md:flex-row flex-col-reverse">
+        <div class="">
+          <h1 class="text-2xl md:text-4xl mb-6">
+            We Make it
+            <br /> Perfect for you.
+          </h1>
+          <p class="text-light text-lg font-normal">
+            Simple. Clean. Creative.
+          </p>
+        </div>
+        <div class="md:relative flex flex-col md:flex-1 items-center mr-12">
+          <img class="md:absolute md:pin-r" src="./assets/header-item-1.svg" } />
+          <img class="md:absolute md:pin-x" src="./assets/header-item-2.svg" />
+          <img class="hidden md:block w-4/5" src="./assets/coworkers.svg" />
+        </div>
+      </header>
+      <section class="flex justify-between mb-38 md:flex-row flex-col-reverse">
+        <div class="w-1/2 flex flex-col justify-between">
+          <div class="flex md:mb-0 mb-12">
+            <div class="mr-10">
+              <span class="block px-3 py-2 bg-blue rounded-lg rounded-tr-none rounded-bl-none text-white">
+                &#10003;
+              </span>
+            </div>
+            <div>
+              <h2 class="inline-block text-xl -mt-2 font-medium mb-4">
+                Data Analytics
+              </h2>
+              <p class="text-grey font-normal">
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut.
+              </p>
+            </div>
+          </div>
+          <div class="flex md:mb-0 mb-12">
+            <div class="mr-10">
+              <span class="block px-3 py-2 bg-blue-light rounded-lg rounded-tr-none rounded-bl-none text-blue">
+                &#10003;
+              </span>
+            </div>
+            <div>
+              <h2 class="text-xl -mt-2 font-medium mb-4">
+                Management Tool
+              </h2>
+              <p class="text-grey font-normal">
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut.
+              </p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="mr-10">
+              <span class="block px-3 py-2 bg-blue-light rounded-lg rounded-tr-none rounded-bl-none text-blue">
+                &#10003;
+              </span>
+            </div>
+            <div>
+              <h2 class="text-xl -mt-2 font-medium mb-4">
+                Knowledge Base
+              </h2>
+              <p class="text-grey font-normal">
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-4/5 sm:w-1/2 text-center sm:m-0 mb-12 m-auto">
+          <img src="./assets/data-analytics.svg" alt="data analytics" />
+        </div>
+      </section>
     </div>
+    <div class="relative md:flex md:relative md:mb-38">
+      <div class="-ml-4 sm:ml-0 w-90 md:w-1/2 h-128 md:absolute bg-unplash rounded-xl rounded-tl-none rounded-bl-none z-0"></div>
+      <div class="flex md:container md:m-auto h-128 items-center z-10 flex-col md:flex-row">
+        <div class="absolute position-video-mobile md:relative md:pin-t w-full md:w-1/2 md:text-right md:px-16 text-white">
+          <h1 class="text-5xl md:text-stupid font-semibold">Upto</h1>
+          <a href="#" class="flex md:justify-end mt-6 items-center text-white no-underline">
+            <div class="mr-6">
+              <div class="border rounded-full p-3 text-lg">&#9658;</div>
+            </div>
+            <div>
+              <div class="text-white no-underline flex flex-col font-semibold">
+                <span class="text-left font-medium text-sm">Watch</span>
+                <span class="uppercase">Intro Video</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="w-full md:w-1/2 md:px-32 mt-12 md:mt-0">
+          <h1 class="mb-8 leading-normal">
+            Business
+            <br />Partnership
+          </h1>
+          <p class="leading-loose text-grey mb-6">
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+            tempora incidunt.
+          </p>
+          <a href="#" class="no-underline font-semibold text-sm text-yellow-darker">
+            Know More
+            <span>&#10141;</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container m-auto mb-38">
+      <section>
+        <h1 class="text-4xl mb-6">Work in Process.</h1>
+        <p class="text-lg font-light">Problems. Idea. Solution.</p>
+        <div class="flex justify-between mt-12 md:mt-24 md:flex-row flex-col">
+          <div class="flex flex-col md-flex-row px-8 md:px-0 md:items-baseline">
+            <div class="block mb-8 text-center w-16 py-8 bg-blue-light rounded-2xl rounded-tr-none rounded-bl-none">
+              <svg class="w-8 h-8 text-blue fill-current">
+                <path d="M27.183 23.745H23.302C23.003 23.745 22.761 23.503 22.761 23.203C22.761 22.905 23.003 22.662 23.302 22.662H27.183C27.482 22.662 27.724 22.905 27.724 23.203C27.724 23.503 27.482 23.745 27.183 23.745ZM26.549 15.59C25.935 16.312 24.932 17.408 23.635 18.526C21.446 20.412 18.065 22.65 14.232 22.786L10.752 26.267C10.65 26.368 10.513 26.425 10.369 26.425H3.6C3.368 27.177 2.667 27.724 1.841 27.724C0.825 27.724 0 26.899 0 25.883C0 24.868 0.825 24.042 1.841 24.042C2.667 24.042 3.368 24.59 3.6 25.342H10.145L12.753 22.733C9.231 22.358 6.139 20.278 4.09 18.506C2.802 17.392 1.795 16.293 1.177 15.568C0.803 15.129 0.537 14.787 0.38 14.578C0.068 14.162 0.001 14.054 0.001 13.862C0.001 13.679 0.061 13.563 0.378 13.135C0.532 12.926 0.795 12.584 1.177 12.134C1.79 11.413 2.793 10.317 4.091 9.198C6.279 7.312 9.659 5.076 13.492 4.938L16.972 1.458C17.074 1.357 17.211 1.299 17.355 1.299H20.607C20.906 1.299 21.149 1.542 21.149 1.841C21.149 2.14 20.906 2.382 20.607 2.382H17.579L14.971 4.991C18.494 5.366 21.586 7.447 23.635 9.219C24.924 10.333 25.931 11.431 26.548 12.156C26.922 12.596 27.188 12.938 27.345 13.147C27.657 13.563 27.724 13.67 27.724 13.862C27.724 14.045 27.664 14.161 27.348 14.59C27.193 14.798 26.93 15.141 26.549 15.59ZM1.841 25.126C1.423 25.126 1.082 25.466 1.082 25.884C1.082 26.302 1.423 26.642 1.841 26.642C2.259 26.642 2.599 26.302 2.599 25.884C2.599 25.466 2.259 25.126 1.841 25.126ZM22.736 9.874C20.656 8.113 17.428 6.015 13.863 6.015C10.299 6.015 7.079 8.096 5.006 9.841C3.012 11.52 1.649 13.227 1.192 13.856C1.665 14.496 3.036 16.196 4.99 17.85C7.07 19.611 10.297 21.71 13.863 21.71C17.427 21.71 20.646 19.629 22.719 17.884C24.713 16.204 26.076 14.498 26.533 13.869C26.061 13.229 24.689 11.528 22.736 9.874ZM13.863 16.353C15.236 16.353 16.353 15.236 16.353 13.863C16.353 13.563 16.596 13.321 16.895 13.321C17.194 13.321 17.436 13.563 17.436 13.862C17.436 15.833 15.833 17.436 13.863 17.436C11.892 17.436 10.289 15.833 10.289 13.862C10.289 11.891 11.892 10.289 13.863 10.289C14.162 10.289 14.404 10.531 14.404 10.83C14.404 11.129 14.162 11.371 13.863 11.371C12.489 11.371 11.372 12.489 11.372 13.863C11.372 15.236 12.489 16.353 13.863 16.353ZM14.866 21.022C14.538 21.067 14.207 21.089 13.876 21.089C12.68 21.089 11.487 20.794 10.437 20.228C10.173 20.086 10.075 19.758 10.217 19.495C10.359 19.231 10.687 19.133 10.95 19.274C13.32 20.552 16.306 20.113 18.211 18.207C20.608 15.81 20.608 11.911 18.211 9.514C15.814 7.117 11.915 7.117 9.518 9.514C7.613 11.419 7.173 14.405 8.45 16.775C8.592 17.038 8.494 17.366 8.231 17.508C7.967 17.65 7.639 17.552 7.497 17.288C6.775 15.948 6.493 14.375 6.704 12.859C6.922 11.291 7.63 9.87 8.752 8.748C11.571 5.929 16.158 5.929 18.977 8.748C21.796 11.567 21.796 16.154 18.977 18.973C17.855 20.095 16.433 20.803 14.866 21.022ZM8.753 18.206C8.964 17.995 9.307 17.995 9.518 18.206C9.73 18.418 9.73 18.761 9.518 18.973L9.514 18.977C9.408 19.082 9.27 19.135 9.131 19.135C8.993 19.135 8.854 19.082 8.748 18.977C8.537 18.765 8.537 18.422 8.748 18.211L8.753 18.206ZM25.883 3.682C24.868 3.682 24.042 2.856 24.042 1.841C24.042 0.825 24.868 0 25.883 0C26.898 0 27.724 0.825 27.724 1.841C27.724 2.856 26.898 3.682 25.883 3.682ZM25.883 1.083C25.465 1.083 25.125 1.423 25.125 1.841C25.125 2.259 25.465 2.599 25.883 2.599C26.301 2.599 26.641 2.259 26.641 1.841C26.641 1.423 26.301 1.083 25.883 1.083ZM22.58 2.383C22.438 2.383 22.298 2.325 22.197 2.224C22.097 2.123 22.039 1.984 22.039 1.841C22.039 1.699 22.097 1.559 22.197 1.458C22.298 1.357 22.438 1.299 22.58 1.299C22.723 1.299 22.862 1.357 22.963 1.458C23.064 1.559 23.122 1.699 23.122 1.841C23.122 1.984 23.064 2.123 22.963 2.224C22.862 2.325 22.723 2.383 22.58 2.383ZM9.932 2.463H6.715C6.416 2.463 6.174 2.221 6.174 1.922C6.174 1.623 6.416 1.381 6.715 1.381H9.932C10.231 1.381 10.473 1.623 10.473 1.922C10.473 2.221 10.231 2.463 9.932 2.463ZM4.495 5.063H0.542C0.243 5.063 0.001 4.82 0.001 4.521C0.001 4.222 0.243 3.98 0.542 3.98H4.495C4.794 3.98 5.037 4.222 5.037 4.521C5.037 4.82 4.794 5.063 4.495 5.063ZM4.495 2.463H0.542C0.243 2.463 0.001 2.221 0.001 1.922C0.001 1.623 0.243 1.381 0.542 1.381H4.495C4.794 1.381 5.037 1.623 5.037 1.922C5.037 2.221 4.794 2.463 4.495 2.463ZM0.541 21.768H6.231C6.53 21.768 6.772 22.01 6.772 22.31C6.772 22.608 6.53 22.851 6.231 22.851H0.541C0.242 22.851 0 22.608 0 22.31C0 22.01 0.242 21.768 0.541 21.768ZM0.541 19.602H3.466C3.765 19.602 4.008 19.844 4.008 20.144C4.008 20.442 3.765 20.685 3.466 20.685H0.541C0.242 20.685 0 20.442 0 20.144C0 19.844 0.242 19.602 0.541 19.602ZM14.517 25.261H16.083C16.382 25.261 16.624 25.504 16.624 25.803C16.624 26.102 16.382 26.344 16.083 26.344H14.517C14.218 26.344 13.975 26.102 13.975 25.803C13.975 25.504 14.218 25.261 14.517 25.261ZM18.357 25.261H21.064C21.363 25.261 21.606 25.504 21.606 25.803C21.606 26.102 21.363 26.344 21.064 26.344H18.357C18.058 26.344 17.815 26.102 17.815 25.803C17.815 25.504 18.058 25.261 18.357 25.261ZM23.302 25.261H27.183C27.482 25.261 27.724 25.504 27.724 25.803C27.724 26.102 27.482 26.344 27.183 26.344H23.302C23.003 26.344 22.761 26.102 22.761 25.803C22.761 25.504 23.003 25.261 23.302 25.261Z"
+                />
+              </svg>
+            </div>
+            <h2 class="text-3xl font-normal mb-4">Finding</h2>
+            <p class="text-grey leading-loose md:mr-24">
+              Neque porro quisquam est, qui dolorem ipsum quia dol sit amet, consectetur, velit, sed quia.
+            </p>
+          </div>
+          <div class="flex flex-col md-flex-row px-8 md:px-0 md:items-baseline mt-12 md:mt-0">
+            <div class="block mb-8 text-center w-16 py-8 bg-blue-light rounded-2xl rounded-tr-none rounded-bl-none">
+              <svg class="w-8 h-8 text-blue fill-current" xmlns="http://www.w3.org/2000/svg">
+                <path d="M27.216,15.536 L26.368,15.477 C26.372,15.427 26.374,15.377 26.374,15.327 L26.374,14.053 L27.223,14.053 L27.223,15.327 C27.223,15.397 27.221,15.467 27.216,15.536 ZM26.374,12.353 C26.374,12.166 26.349,11.981 26.301,11.801 L27.121,11.580 C27.189,11.831 27.223,12.092 27.223,12.353 L27.223,12.778 L26.374,12.778 L26.374,12.353 ZM20.001,9.379 L21.276,9.379 L21.276,10.229 L20.001,10.229 L20.001,9.379 ZM22.550,9.379 L23.825,9.379 L23.825,10.229 L22.550,10.229 L22.550,9.379 ZM8.530,11.928 L7.680,11.928 L7.680,10.653 L8.530,10.653 L8.530,11.928 ZM7.680,8.104 L8.530,8.104 L8.530,9.379 L7.680,9.379 L7.680,8.104 ZM25.524,2.156 L25.524,5.130 C25.524,6.770 24.190,8.104 22.550,8.104 L20.851,8.104 C19.679,8.104 18.726,9.057 18.726,10.229 L18.726,11.759 C20.311,12.316 21.483,13.736 21.670,15.478 C22.686,15.780 23.499,16.516 23.925,17.451 L24.249,17.451 L24.249,18.301 L24.191,18.301 C24.228,18.509 24.249,18.722 24.249,18.938 C24.249,19.912 23.861,20.833 23.174,21.510 C23.324,21.912 23.400,22.332 23.400,22.762 C23.400,24.754 21.780,26.373 19.788,26.373 C19.128,26.373 18.496,26.197 17.937,25.860 C17.255,26.721 16.229,27.223 15.115,27.223 C13.916,27.223 12.823,26.641 12.153,25.674 C11.537,26.128 10.796,26.373 10.017,26.373 C9.321,26.373 8.651,26.175 8.067,25.798 C7.917,25.842 7.762,25.876 7.605,25.900 C7.576,25.905 7.546,25.910 7.517,25.913 C7.362,25.934 7.204,25.948 7.043,25.948 C5.052,25.948 3.432,24.329 3.432,22.337 C3.432,21.889 3.514,21.451 3.678,21.034 C3.243,20.425 3.007,19.690 3.007,18.938 C3.007,17.332 4.077,15.924 5.593,15.475 C5.832,13.701 7.345,12.353 9.167,12.353 C9.497,12.353 9.824,12.399 10.144,12.490 C10.297,12.320 10.469,12.172 10.654,12.043 L10.654,8.954 C10.654,8.017 9.892,7.255 8.955,7.255 L6.406,7.255 C5.468,7.255 4.706,8.017 4.706,8.954 L4.706,9.804 C4.706,10.741 3.944,11.504 3.007,11.504 L2.157,11.504 L2.922,12.523 L2.242,13.033 L0.776,11.079 L2.242,9.124 L2.922,9.634 L2.157,10.654 L3.007,10.654 C3.476,10.654 3.857,10.273 3.857,9.804 L3.857,8.954 C3.857,7.548 5.000,6.405 6.406,6.405 L7.680,6.405 L7.680,5.555 L8.530,5.555 L8.530,6.405 L8.955,6.405 C10.361,6.405 11.504,7.548 11.504,8.954 L11.504,11.632 C11.777,11.550 12.062,11.504 12.354,11.504 C13.182,11.504 13.963,11.848 14.521,12.441 C15.301,11.833 16.251,11.504 17.239,11.504 C17.456,11.504 17.668,11.524 17.877,11.553 L17.877,10.229 L17.378,10.229 L17.394,9.379 L18.002,9.379 C18.369,8.105 19.506,7.255 20.851,7.255 L22.550,7.255 C23.721,7.255 24.674,6.302 24.674,5.130 L24.674,2.157 L23.655,2.921 L23.145,2.241 L25.099,0.776 L27.054,2.241 L26.544,2.921 L25.524,2.156 ZM15.752,16.177 C16.924,16.177 17.877,15.224 17.877,14.053 L17.877,12.412 C17.670,12.375 17.444,12.353 17.226,12.353 C16.305,12.353 15.411,12.709 14.732,13.357 L14.489,13.564 C13.904,14.222 13.522,15.078 13.522,15.964 C13.522,17.956 15.328,19.575 17.027,19.575 L17.027,20.425 C14.903,20.425 12.672,18.424 12.672,15.964 C12.672,14.877 13.180,13.828 13.892,13.018 C13.494,12.598 12.941,12.353 12.354,12.353 C12.057,12.353 11.769,12.419 11.504,12.536 L11.504,15.327 L10.654,15.327 L10.654,13.209 C10.647,13.218 10.640,13.226 10.633,13.235 L10.443,13.498 L10.139,13.383 C9.823,13.263 9.496,13.203 9.167,13.203 C8.948,13.203 8.735,13.231 8.530,13.280 L8.530,14.477 L7.680,14.477 L7.680,13.638 C6.952,14.105 6.456,14.906 6.413,15.835 L6.398,16.166 L6.072,16.231 C4.788,16.489 3.857,17.627 3.857,18.938 C3.857,19.581 4.083,20.207 4.493,20.701 L4.667,20.910 L4.550,21.155 C4.372,21.531 4.281,21.928 4.281,22.337 C4.281,23.860 5.520,25.099 7.043,25.099 C7.195,25.099 7.347,25.083 7.499,25.058 C7.509,25.056 7.519,25.055 7.529,25.053 C7.682,25.025 7.834,24.985 7.983,24.931 C9.044,24.544 9.805,23.529 9.805,22.337 C9.805,21.309 9.239,20.372 8.327,19.891 L8.723,19.139 C9.576,19.589 10.192,20.347 10.476,21.234 C10.998,21.147 11.486,20.912 11.882,20.549 L12.456,21.176 C11.944,21.646 11.312,21.952 10.636,22.069 C10.642,22.158 10.654,22.247 10.654,22.337 C10.654,23.588 10.015,24.691 9.047,25.339 C9.355,25.457 9.681,25.523 10.017,25.523 C10.751,25.523 11.441,25.238 11.962,24.722 L12.381,24.306 L12.642,24.834 C13.112,25.783 14.060,26.373 15.115,26.373 C15.961,26.373 16.740,25.994 17.262,25.344 C16.631,24.728 16.242,23.902 16.182,23.002 L17.030,22.946 C17.078,23.668 17.399,24.329 17.923,24.805 L18.092,24.938 C18.583,25.321 19.170,25.523 19.788,25.523 C21.279,25.523 22.494,24.336 22.545,22.858 C22.494,21.227 21.384,20.210 19.973,20.116 L20.029,19.321 C21.138,19.395 22.105,19.909 22.716,20.751 C23.153,20.251 23.400,19.613 23.400,18.938 C23.400,18.719 23.365,18.507 23.315,18.301 L22.974,18.301 L22.974,17.484 C22.582,16.855 21.948,16.386 21.184,16.232 L20.855,16.167 L20.843,15.831 C20.791,14.412 19.938,13.220 18.726,12.674 L18.726,14.053 C18.726,15.692 17.392,17.026 15.752,17.026 L15.328,17.026 L15.328,16.177 L15.752,16.177 ZM7.680,15.752 L8.530,15.752 L8.530,17.026 L7.680,17.026 L7.680,15.752 ZM21.700,18.301 L20.426,18.301 L20.426,17.451 L21.700,17.451 L21.700,18.301 ZM14.478,3.431 L15.328,3.431 L15.328,4.706 L14.478,4.706 L14.478,3.431 ZM16.387,9.091 L15.959,9.825 C15.531,9.575 15.169,9.219 14.910,8.795 L15.635,8.353 C15.821,8.657 16.081,8.912 16.387,9.091 ZM14.478,7.255 L14.478,5.980 L15.327,5.980 L15.330,7.293 L14.481,7.388 C14.479,7.343 14.478,7.299 14.478,7.255 ZM15.328,2.156 L14.478,2.156 L13.458,2.921 L12.948,2.241 L14.903,0.776 L16.857,2.241 L16.347,2.921 L15.328,2.156 ZM8.530,4.281 L7.680,4.281 L7.680,3.006 L8.530,3.006 L8.530,4.281 ZM8.105,1.838 L6.660,2.921 L6.151,2.241 L8.105,0.776 L10.059,2.241 L9.550,2.921 L8.105,1.838 ZM26.397,10.299 L25.783,10.887 C25.536,10.629 25.228,10.436 24.891,10.328 L25.150,9.519 C25.622,9.670 26.053,9.940 26.397,10.299 ZM26.036,16.472 L26.750,16.933 C26.481,17.349 26.109,17.696 25.675,17.935 L25.266,17.190 C25.577,17.019 25.844,16.770 26.036,16.472 Z"
+                />
+              </svg>
+            </div>
+            <h2 class="text-3xl font-normal mb-4">New Idea</h2>
+            <p class="text-grey leading-loose mr-24">
+              Neque porro quisquam est, qui dolorem ipsum quia dol sit amet, consectetur, velit, sed quia.
+            </p>
+          </div>
+          <div class="flex flex-col md-flex-row px-8 md:px-0 md:items-baseline mt-12 md:mt-0">
+            <div class="block mb-8 text-center w-16 py-8 bg-blue-light rounded-2xl rounded-tr-none rounded-bl-none">
+              <svg class="w-8 h-8 text-blue fill-current" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24.745,25.475 C24.341,25.475 24.014,25.148 24.014,24.744 L24.014,6.683 L11.382,6.683 L11.382,9.919 L20.047,9.919 C20.451,9.919 20.778,10.247 20.778,10.650 C20.778,11.054 20.451,11.381 20.047,11.381 L10.651,11.381 C10.247,11.381 9.920,11.054 9.920,10.650 L9.920,5.952 C9.920,5.549 10.247,5.221 10.651,5.221 L24.745,5.221 C25.149,5.221 25.476,5.549 25.476,5.952 L25.476,24.744 C25.476,25.148 25.149,25.475 24.745,25.475 ZM7.128,3.551 C7.128,3.551 7.128,3.551 7.127,3.551 L6.684,3.551 L6.684,14.617 L20.047,14.617 C20.451,14.617 20.778,14.945 20.778,15.348 L20.778,24.744 C20.778,25.148 20.451,25.475 20.047,25.475 C19.643,25.475 19.316,25.148 19.316,24.744 L19.316,16.079 L5.953,16.079 C5.549,16.079 5.222,15.752 5.222,15.348 L5.222,3.551 L4.778,3.551 C4.501,3.551 4.248,3.395 4.125,3.147 C4.001,2.900 4.027,2.603 4.194,2.381 L5.368,0.816 C5.506,0.631 5.723,0.523 5.953,0.523 C6.183,0.523 6.400,0.631 6.538,0.816 L7.692,2.355 C7.797,2.481 7.859,2.644 7.859,2.820 C7.859,3.224 7.532,3.551 7.128,3.551 ZM14.618,20.778 L5.953,20.778 C5.549,20.778 5.222,20.450 5.222,20.046 C5.222,19.643 5.549,19.316 5.953,19.316 L15.349,19.316 C15.753,19.316 16.080,19.643 16.080,20.046 L16.080,24.744 C16.080,25.148 15.753,25.475 15.349,25.475 L1.255,25.475 C0.851,25.475 0.524,25.148 0.524,24.744 L0.524,5.952 C0.524,5.549 0.851,5.221 1.255,5.221 C1.658,5.221 1.986,5.549 1.986,5.952 L1.986,24.014 L14.618,24.014 L14.618,20.778 Z"
+                />
+              </svg>
+            </div>
+            <h2 class="text-3xl font-normal mb-4">Solution</h2>
+            <p class="text-grey leading-loose">
+              Neque porro quisquam est, qui dolorem ipsum quia dol sit amet, consectetur, velit, sed quia.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="bg-blue-light mb-24 md:mb-38 rounded-xl md:rounded-none">
+      <div class="container m-auto flex flex-col md:flex-row">
+        <div class="md:w-1/2 h-half">
+          <div class="rounded-xxl rounded-tr-none rounded-bl-none bg-white h-full flex justify-center items-center relative">
+            <div class="absolute hidden md:block pin-center-left border-special-1 w-16 h-16 rounded-2xl rounded-tr-none rounded-bl-none shadow-lg"></div>
+            <div class="absolute z-40 border-special-2 w-32 h-32 rounded-2xl rounded-tr-none rounded-bl-none shadow-lg"></div>
+            <div class="absolute pin-top-right border-special-3 w-24 h-24 rounded-2xl rounded-tr-none rounded-bl-none shadow-lg"></div>
+            <div class="absolute pin-bottom-left border-special-4 w-24 h-24 rounded-2xl rounded-tr-none rounded-bl-none shadow-lg"></div>
+            <div class="absolute hidden md:block pin-center-right border-special-5 w-16 h-16 rounded-2xl rounded-tr-none rounded-bl-none shadow-lg"></div>
+          </div>
+        </div>
+        <div class="md:w-1/2 flex flex-col justify-center">
+          <svg class="w-32 h-32 text-grey-lightest fill-current flip self-end" xmlns="http://www.w3.org/2000/svg">
+            <path d="M131.723,110.294 C128.682,113.335 124.991,114.856 120.643,114.856 L89.358,114.856 C85.012,114.856 81.319,113.335 78.278,110.294 C75.237,107.252 73.716,103.560 73.716,99.213 L73.716,41.857 C73.716,36.208 74.817,30.817 77.016,25.684 C79.216,20.550 82.190,16.111 85.938,12.364 C89.686,8.616 94.125,5.642 99.257,3.442 C104.391,1.243 109.780,0.142 115.432,0.142 L120.645,0.142 C122.057,0.142 123.280,0.659 124.311,1.689 C125.343,2.722 125.860,3.945 125.860,5.357 L125.860,15.786 C125.860,17.198 125.343,18.420 124.311,19.452 C123.280,20.484 122.057,21.000 120.645,21.000 L115.432,21.000 C109.673,21.000 104.757,23.037 100.684,27.110 C96.612,31.184 94.576,36.099 94.576,41.857 L94.576,44.463 C94.576,46.636 95.335,48.483 96.856,50.004 C98.375,51.525 100.223,52.285 102.395,52.285 L120.645,52.285 C124.992,52.285 128.684,53.806 131.725,56.847 C134.766,59.890 136.286,63.582 136.286,67.929 L136.286,99.213 C136.286,103.560 134.766,107.252 131.723,110.294 ZM47.644,114.856 L16.357,114.856 C12.013,114.856 8.318,113.335 5.276,110.294 C2.234,107.252 0.714,103.560 0.714,99.213 L0.714,41.857 C0.714,36.208 1.814,30.817 4.015,25.684 C6.214,20.550 9.187,16.111 12.935,12.364 C16.683,8.616 21.123,5.642 26.256,3.442 C31.390,1.243 36.779,0.142 42.429,0.142 L47.642,0.142 C49.055,0.142 50.276,0.659 51.308,1.689 C52.340,2.722 52.856,3.945 52.856,5.357 L52.856,15.786 C52.856,17.198 52.340,18.420 51.308,19.452 C50.276,20.484 49.055,21.000 47.642,21.000 L42.429,21.000 C36.671,21.000 31.755,23.037 27.682,27.110 C23.607,31.184 21.570,36.099 21.570,41.857 L21.570,44.463 C21.570,46.636 22.331,48.483 23.851,50.004 C25.372,51.525 27.220,52.285 29.392,52.285 L47.642,52.285 C51.987,52.285 55.682,53.806 58.723,56.847 C61.766,59.890 63.286,63.582 63.286,67.929 L63.286,99.213 C63.286,103.560 61.766,107.252 58.724,110.294 C55.682,113.335 51.989,114.856 47.644,114.856 Z"
+            />
+          </svg>
+          <div class="p-4 md:p-12">
+            <h1 class="text-2xl font-medium mb-6">
+              They are giving
+              <br /> amazing solutions.
+            </h1>
+            <p class="text-grey leading-normal mb-6">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis
+              unde omnis iste natus error sit. voluptatem accusantium que laudantium.
+            </p>
+            <h2 class="text-sm font-normal mb-6">
+              Jeffer cruz, Ceo Ninja
+            </h2>
+            <div class="flex text-lg">
+              <a href="#" class="no-underline mr-4 text-blue">
+                &larr;
+              </a>
+              <a href="#" class="no-underline text-grey">
+                &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="relative">
+      <section class="container m-auto md:mb-38 mb-24">
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-1/2 mt-10 mb-8 md:mb-0">
+            <h1 class="text-2xl font-semibold mb-6">Integrates Tool</h1>
+            <p class="text-grey leading-normal">
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut.
+            </p>
+          </div>
+          <div class="md:w-1/2 flex flex-wrap justify-center">
+            <div class="mr-6 mb-6 bg-blue-light w-48 h-18 rounded-xl rounded-tr-none rounded-bl-none text-center align-middle flex justify-center items-center">
+              <img class="w-32" src="./assets/Asana_logo.png" alt="Asana Logo" />
+            </div>
+            <div class="mr-6 mb-6 bg-blue-light w-48 h-18 rounded-xl rounded-tr-none rounded-bl-none text-center align-middle flex justify-center items-center">
+              <img class="w-32" src="./assets/Campaign_mon.png" alt="Campaign Monitor" />
+            </div>
+            <div class="mr-6 mb-6 bg-blue-light w-48 h-18 rounded-xl rounded-tr-none rounded-bl-none text-center align-middle flex justify-center items-center">
+              <img class="w-40" src="./assets/google-tag-manager-logo.png" alt="Google Tag Logo" />
+            </div>
+            <div class="mr-6 mb-6 bg-blue-light w-48 h-18 rounded-xl rounded-tr-none rounded-bl-none text-center align-middle flex justify-center items-center">
+              <img src="./assets/mailchimp.png" alt="MailChimp logo" />
+            </div>
+            <div class="mr-6 mb-6 bg-blue-light w-48 h-18 rounded-xl rounded-tr-none rounded-bl-none text-center align-middle flex justify-center items-center">
+              <img src="./assets/google-analytics.png" alt="Google Analytics Logo" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="rounded-xl rounded-b-none md:rounded-none bg-blue-dark px-16 py-10 container m-auto text-white flex flex-col md:flex-row justify-between items-center z-40 relative">
+          <h1 class="font-normal text-2xl mb-4 md:mb-0">Ready To <br /> Get Start</h1>
+          <a href="#" class="no-underline text-white mb-4 md:mb-0">upto@corporate.com</a>
+          <button class="bg-white font-medium py-4 px-6 mb-4 md:mb-0 rounded shadow-lg hover:bg-blue-light hover:text-black">Get in Touch</button>
+      </section>
+      <footer class="flex bg-blue-light md:-mt-12">
+        <div class="container m-auto">
+          <div class="flex justify-between md:pt-32 md:mt-12">
+            <div class="hidden md:block pr-16 -mt-4">
+              <img class="w-24" src="assets/logo.png" alt="Logo">
+              <p class="text-grey font-normal text-sm">Exercitation ullamco laboris nisi.
+                  ut aliquip.<br/>
+                  ex ea commodo consequat. </p>
+            </div>
+            <div class="flex-1 flex justify-center md:justify-between px-4 py-6 md:px-0 md:py-0 flex-wrap">
+              <div class="px-4 md:px-0 flex flex-col justify-center md:justify-start items-center md:items-start">
+                <span class="mb-6 font-semibold">Home</span>
+                <a class="no-underline text-grey hover:underline mb-4 font-normal text-sm" href="#">Appirance</a>
+                <a class="no-underline text-grey hover:underline mb-4 font-normal text-sm" href="#">Content</a>
+                <a class="hidden md:block no-underline text-grey hover:underline mb-4 font-normal text-sm" href="#">How it works?</a>
+                <a class="hidden md:block no-underline text-grey hover:underline mb-4 font-normal text-sm" href="#">Sell guide</a>
+              </div>
+              <div class="px-4 md:px-0 flex flex-col justify-center md:justify-start items-center md:items-start">
+                <span class="mb-6 font-semibold">Company</span>
+                <a class="no-underline text-grey hover:underline mb-4 font-normal text-sm" href="#">About Us</a>
+                <a class="no-underline text-grey hover:underline mb-4 font-normal text-sm" href="#">FAQ</a>
+                <a class="hidden md:block no-underline text-grey hover:underline mb-4 font-normal text-sm" href="#">Statistic</a>
+                <a class="hidden md:block no-underline text-grey hover:underline mb-4 font-normal text-sm" href="#">Spoke</a>
+              </div>
+            <div class="flex flex-col justify-center md:justify-start items-center md:items-start">
+             <span class="mb-6 font-semibold">Contact</span>
+             <span class="text-grey mb-4 font-normal text-sm">+880 017717 444 22</span>
+             <a class="no-underline text-grey hover:underline mb-4 font-normal text-sm" href="#">upto@corporate.com</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="./index.js" charset="utf-8"></script>
+</body>
 
-    <script src="./index.js" charset="utf-8"></script>
-  </body>
 </html>
