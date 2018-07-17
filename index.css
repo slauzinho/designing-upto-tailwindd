@@ -95,15 +95,6 @@ body {
     background-size: cover;
     background-position: center;
   }
-  
-  .flip {
-    -moz-transform: scaleX(-1);
-          -o-transform: scaleX(-1);
-          -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-          filter: FlipH;
-          -ms-filter: "FlipH";
-  }
 
   .position-video-mobile {
     top: 18rem;
